@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "_PlantillaSecciones";
+}
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="~/Estilos/estilos.css"/>
+</head>
+<body>
+    <div id="envoltorio">
+        <div id="cabecera">
+            @RenderSection("Cabecera", false)
+        </div>
+        <div id="navegacion">
+            @RenderSection("Navegacion", false)
+        </div>
+        <div id="contenido">
+            @RenderBody()
+        </div>
+        <div id="piepagina">
+            <p>
+                &copy; @DateTime.Now.Year - Aplicación para renta de videos
+            </p>
+        </div>
+    </div>
+</body>

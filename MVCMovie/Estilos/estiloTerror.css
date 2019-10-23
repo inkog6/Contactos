@@ -1,0 +1,44 @@
+* { padding: 0; margin: 0; }
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+}
+#envoltorio { 
+ margin: 0 auto;
+ width: 922px;
+}
+#cabecera {
+ width: 900px;
+ color: #F3F3F3;
+ padding: 10px;
+ border: 1px solid #ccc;
+ height: 100px;
+ margin: 10px 0px 5px 0px;
+ background: #443737;
+}
+#navegacion {
+ width: 900px;
+ color: #272121;
+ padding: 10px;
+ border: 1px solid #ccc;
+ margin: 0px 0px 5px 0px;
+ background-color:#F3F2ED;
+}
+#contenido { 
+ width: 900px;
+ color: #333;
+ border: 1px solid #ccc;
+ background:#FF4D00;
+ margin: 0px 0px 5px 0px;
+ padding: 10px;
+ height: 350px;
+}
+#piepagina { 
+ width: 900px;
+ color: #F3F3F3;
+ border: 1px solid #ccc;
+ background-color:#443737;
+ margin: 0px 0px 10px 0px;
+ padding: 10px;
+}
