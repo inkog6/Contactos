@@ -1,25 +1,34 @@
-﻿<h2>Login Form</h2>
+﻿@model MVCMovie.Models.UserModel
+@{
+    ViewBag.User = "";
+    ViewBag.Password = "";
+}
 
-<form action="/action_page.php" method="post">
+<h2>Bienvenido al mejor sitio de peliculas.</h2>
+
+@using (Html.BeginForm("ValidateUser", "Login", FormMethod.Post))
+{
     <div class="imgcontainer">
         <img src="@Url.Content("~/Images/img_avatar2.png")" alt="Avatar" class="avatar">
     </div>
 
     <div class="container">
-        <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
+        <label for="uname"><b>Usuario</b></label>
+        @Html.TextBoxFor(m => m.userName, new { @placeholder = "Ingresa tu nombre de usuario", @required  = "required"});
+        <!--<input type="text" placeholder="Ingresa tu nombre de usuario" name="uname" required>-->
 
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
+        <label for="psw"><b>Contraseña</b></label>
+        @Html.PasswordFor(m => m.userPassword, new { @placeholder = "Ingresa tu contraseña", @required  = "required"})
+        <!--<input type="password" placeholder="Ingresa tu contraseña" name="psw" required>-->
 
-        <button type="submit">Login</button>
+        <button type="submit">Ingresar</button>
         <label>
-            <input type="checkbox" checked="checked" name="remember"> Remember me
+            <input type="checkbox" checked="checked" name="remember"> Recordarme
         </label>
     </div>
 
     <div class="container" style="background-color:#f1f1f1">
-        <button type="button" class="cancelbtn">Cancel</button>
-        <span class="psw">Forgot <a href="#">password?</a></span>
+        <button type="button" class="cancelbtn">Cancelar</button>
+        <span class="psw">Acaso <a href="#">¿Olvidaste tu contaseña?</a></span>
     </div>
-</form>
+}

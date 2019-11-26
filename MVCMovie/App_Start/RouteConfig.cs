@@ -31,7 +31,7 @@ namespace MVCMovie
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 //defaults: new { controller = "Cinito", action = "Index", id = UrlParameter.Optional }
-                defaults: new { controller = "Login", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Acceso", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
