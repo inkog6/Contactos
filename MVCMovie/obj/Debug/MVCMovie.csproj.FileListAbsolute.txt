@@ -483,3 +483,4 @@ C:\Repos\MVCMovie\MVCMovie\obj\Debug\MVCMovie.csproj.CoreCompileInputs.cache
 C:\Repos\MVCMovie\MVCMovie\obj\Debug\MVCMovie.csproj.CopyComplete
 C:\Repos\MVCMovie\MVCMovie\obj\Debug\MVCMovie.dll
 C:\Repos\MVCMovie\MVCMovie\obj\Debug\MVCMovie.pdb
+C:\Repos\MVCMovie\MVCMovie\obj\Debug\MVCMovie.csprojAssemblyReference.cache

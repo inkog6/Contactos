@@ -130,6 +130,9 @@
     <Content Include="Views\Contactos\Details.cshtml" />
     <Content Include="Views\Contactos\Edit.cshtml" />
     <Content Include="Views\Contactos\Index.cshtml" />
+    <Content Include="Views\Contactos\_ViewStart.cshtml" />
+    <Content Include="Views\Contactos\_PlantillaCrud.cshtml" />
+    <Content Include="Views\Contactos\Test.cshtml" />
     <None Include="Views\Shared\_Plantilla.cshtml" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
