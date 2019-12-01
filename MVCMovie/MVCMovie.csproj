@@ -133,6 +133,11 @@
     <Content Include="Views\Contactos\_ViewStart.cshtml" />
     <Content Include="Views\Contactos\_PlantillaCrud.cshtml" />
     <Content Include="Views\Contactos\Test.cshtml" />
+    <Content Include="Views\Personas\Create.cshtml" />
+    <Content Include="Views\Personas\Delete.cshtml" />
+    <Content Include="Views\Personas\Details.cshtml" />
+    <Content Include="Views\Personas\Edit.cshtml" />
+    <Content Include="Views\Personas\Index.cshtml" />
     <None Include="Views\Shared\_Plantilla.cshtml" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -150,6 +155,7 @@
     <Compile Include="Controllers\HolaMundoController.cs" />
     <Compile Include="Controllers\InfantilController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\PersonasController.cs" />
     <Compile Include="Controllers\PrincipalController.cs" />
     <Compile Include="Controllers\SuspensoController.cs" />
     <Compile Include="Controllers\TerrorController.cs" />
@@ -159,6 +165,7 @@
     </Compile>
     <Compile Include="Models\Contacto.cs" />
     <Compile Include="Models\Estudio.cs" />
+    <Compile Include="Models\Persona.cs" />
     <Compile Include="Models\UserModel.cs" />
     <Compile Include="Models\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
