@@ -105,6 +105,7 @@
     <Content Include="Estilos\estilos.css" />
     <Content Include="Estilos\styles.css" />
     <Content Include="Global.asax" />
+    <Content Include="Images\contacts.jpg" />
     <Content Include="Views\Cinito\Index.cshtml" />
     <Content Include="Views\Accion\Index.cshtml" />
     <Content Include="Views\Drama\Index.cshtml" />
